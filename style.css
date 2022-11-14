@@ -1,0 +1,21 @@
+.first .row:nth-child(even) .col:nth-child(even),
+.first .row:nth-child(odd) .col:nth-child(odd) {
+    background-color: red;
+}
+
+
+.second div.row div.col:first-child {
+    background-color: rgb(225, 225, 225);
+}
+
+.second div.row div.col:nth-child(2) {
+    background-color: rgb(255, 93, 206);
+}
+
+.second div.row div.col:nth-child(3) {
+    background-color: rgb(87, 244, 255);
+}
+
+.second div.row div.col:last-child {
+    background-color: rgb(239, 255, 92);
+}
